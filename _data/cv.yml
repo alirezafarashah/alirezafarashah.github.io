@@ -90,21 +90,19 @@
         - 33rd in the Nationwide University Entrance Exam among over 160,000
 
 - title: Reseach Interests
-  type: nested_list
+  type: list
   contents:
-    - title: Trustworthy Machine Learning
-      items:
         - Adversarial Robustness
         - Robustness
         - Fariness
         - Interpretability
         - Differential Privacy
-        
-    - title: Computer Vision
-      items:
+        - Biomedical Image Analysis
         - Object Detection
         - Pose Estimation
         - Pose Tracking
+        
+    
 
 
 
