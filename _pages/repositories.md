@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: You can visit my [GitHub](https://github.com/alirezafarashah) page to view all the repositories that I have created or contributed to.
+description: You can visit my <a href="https://github.com/alirezafarashah" </a> page to view all the repositories that I have created or contributed to.
 nav: true
 nav_order: 3
 ---
