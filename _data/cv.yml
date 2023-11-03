@@ -76,7 +76,7 @@
       description:
         - Supervised by <a href="https://www.cse.cuhk.edu.hk/people/faculty/farzan-farnia/"> Prof. Farzan Farnia </a> <br>
         - My research experience under the supervision of Prof. Farnia at the Chinese University of Hong Kong proved to be highly beneficial, deepening my understanding of adversarial attacks and perturbations. Prof. Farnia’s guidance exposed me to cutting-edge research and techniques, expanding my knowledge and providing me valuable insights. Through this project, I gained practical skills in developing low-rank adversarial attacks. This research project enhanced my theoretical knowledge, equipped me with practical skills. In this project we designed a new attack by projecting perturbations into low dimentional space. This project leads to advances in transferability of adversarial perturbations.    
-        - title: Research Assistant in Robust and Interpretable Machine Learning Lab
+    - title: Research Assistant in Robust and Interpretable Machine Learning Lab
       institution: Sharif University of Technology
       year: October 2022 - Present
       description:
