@@ -26,7 +26,7 @@
         - General Grade Average (GPA), 4/4
 
 - title: Skills
-  type: skills
+  type: nested_list
   contents:
     - title: Programming Languages
       items:
@@ -70,7 +70,7 @@
 - title: Research Experience
   type: time_table
   contents:
-    - title: Internship in Interpretability and Sparsity in Deep Neural Networks
+    - title: Summer Internship CUHK
       institution: Chinese University of Hong Kong (CUHK)
       year: Jul 2023 - Sep 2023
       description:
