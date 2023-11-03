@@ -92,11 +92,12 @@
 - title: Reseach Interests
   type: list
   contents:
-        - Adversarial Robustness
         - Robustness
-        - Fariness
+        - Adversarial Attacks
         - Interpretability
         - Differential Privacy
+        - Fariness
+        - Domain Adaptation/Generalization
         - Biomedical Image Analysis
         - Object Detection
         - Pose Estimation
