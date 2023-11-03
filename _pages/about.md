@@ -2,13 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
-
+  image_circular: false # crops the image to make it circular
+    <p>Computer Engineering Dpartment</p>
+    <p>Sharif University of Technology</p>
+    <p>Tehran, IRAN</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
