@@ -2,96 +2,110 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Alireza Dehghanpour Farashah
     - name: Date of Birth
-      value: 14th March 1879
+      value: 6th January 2001
     - name: Languages
-      value: English, German
+      value: English, Persian
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor
+      institution: Sharif University of Technology , Tehran, Iran
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Computer Engineering
+        - GPA, 19.48/20
+        - last two years average grade, 19.66/20
+    - title: High School
+      institution: Allameh Helli, National Organization for Development of Exceptional Talents, Tehran, Iran
+      year: 2016
       description:
-        - Description 1.
-        - Description 2.
+        - Mathematics and Physics
+        - General Grade Average (GPA), 4/4
 
-- title: Experience
+- title: Skills
+  type: skills
+  contents:
+    - title: Programming Languages
+      items:
+        - name: Python
+        - name: C++
+        - name: Java
+
+    - title: Frameworks & Libraries
+      items:
+        - name: Pytorch
+        - name: TensorFlow
+        - name: Keras
+        - name: Scikit-learn
+        - name: Numpy
+        - name: Pandas
+        - name: Openmim
+        - name: MMDetection
+        - name: MMPose
+      
+    - title: Tools
+      items:
+        - name: Git
+        - name: PostgreSQL
+        - name: MySQL
+    
+    - title: Operating Systems
+      items:
+        - name: Linux
+        - name: Windows
+    
+    - title: CAD & Simulation Tools
+      items:
+        - name: Proteus
+        - name: ModelSim
+        - name: Packet Tracer
+        - name: Arena
+        - name: Wireshark
+        - name: Arduino
+
+        
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Internship in Interpretability and Sparsity in Deep Neural Networks
+      institution: Chinese University of Hong Kong (CUHK)
+      year: Jul 2023 - Sep 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Supervised by <a href="https://www.cse.cuhk.edu.hk/people/faculty/farzan-farnia/"> Prof. Farzan Farnia </a> <br>
+        - My research experience under the supervision of Prof. Farnia at the Chinese University of Hong Kong proved to be highly beneficial, deepening my understanding of adversarial attacks and perturbations. Prof. Farnia’s guidance exposed me to cutting-edge research and techniques, expanding my knowledge and providing me valuable insights. Through this project, I gained practical skills in developing low-rank adversarial attacks. This research project enhanced my theoretical knowledge, equipped me with practical skills. In this project we designed a new attack by projecting perturbations into low dimentional space. This project leads to advances in transferability of adversarial perturbations.    
+        - title: Research Assistant in Robust and Interpretable Machine Learning Lab
+      institution: Sharif University of Technology
+      year: October 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
+        - Supervised by <a href="http://sharif.ir/~rohban/"> Prof. Mohammad Hossein Rohban </a>
+        - In this project, we worked on Fast Adversarial Training which suffers from Catastrophic Overfitting. CO occurs when the adversarially trained network suddenly loses robustness against multi-step attacks like Projected Gradient Descent (PGD). Although several approaches have been proposed to address this problem in Convolutional Neural Networks (CNNs), we found out that they do not perform well when applied to Vision Transformers (ViTs). In our paper we proposed a novel method of fast training which overcomes Catastrophic Overfitting in ViTs.
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - year: 2019
+      items:
+        - 33rd in the Nationwide University Entrance Exam among over 160,000
 
-- title: Academic Interests
+- title: Reseach Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Trustworthy Machine Learning
       items:
-        - Description 1.
-        - Description 2.
+        - Adversarial Robustness
+        - Robustness
+        - Fariness
+        - Interpretability
+        - Differential Privacy
+        
+    - title: Computer Vision
+      items:
+        - Object Detection
+        - Pose Estimation
+        - Pose Tracking
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
+
+
