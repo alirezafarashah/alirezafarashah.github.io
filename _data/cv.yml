@@ -31,40 +31,43 @@
     - title: Programming Languages
       items:
         - name: Python
+          mode: advance
         - name: C++
+          mode: advance
         - name: Java
+          mode: advance
 
-    - title: Frameworks & Libraries
-      items:
-        - name: Pytorch
-        - name: TensorFlow
-        - name: Keras
-        - name: Scikit-learn
-        - name: Numpy
-        - name: Pandas
-        - name: Openmim
-        - name: MMDetection
-        - name: MMPose
+    # - title: Frameworks & Libraries
+    #   items:
+    #     - name: Pytorch
+    #     - name: TensorFlow
+    #     - name: Keras
+    #     - name: Scikit-learn
+    #     - name: Numpy
+    #     - name: Pandas
+    #     - name: Openmim
+    #     - name: MMDetection
+    #     - name: MMPose
       
-    - title: Tools
-      items:
-        - name: Git
-        - name: PostgreSQL
-        - name: MySQL
+    # - title: Tools
+    #   items:
+    #     - name: Git
+    #     - name: PostgreSQL
+    #     - name: MySQL
     
-    - title: Operating Systems
-      items:
-        - name: Linux
-        - name: Windows
+    # - title: Operating Systems
+    #   items:
+    #     - name: Linux
+    #     - name: Windows
     
-    - title: CAD & Simulation Tools
-      items:
-        - name: Proteus
-        - name: ModelSim
-        - name: Packet Tracer
-        - name: Arena
-        - name: Wireshark
-        - name: Arduino
+    # - title: CAD & Simulation Tools
+    #   items:
+    #     - name: Proteus
+    #     - name: ModelSim
+    #     - name: Packet Tracer
+    #     - name: Arena
+    #     - name: Wireshark
+    #     - name: Arduino
 
         
 - title: Research Experience
