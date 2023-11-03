@@ -102,7 +102,18 @@
         - Object Detection
         - Pose Estimation
         - Pose Tracking
-        
+
+
+
+- title: Languages
+  type: map
+  contents:
+    - name: English
+      value: Proficient - TOEFL iBT 105 (R26, L30, S24, W25)
+    - name: Persian
+      value: Native
+
+
     
 
 
