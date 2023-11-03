@@ -27,6 +27,8 @@ layout: default
             {% include cv/time_table.html %}
           {% elsif entry.type == "list_groups" %}
             {% include cv/list_groups.html %}
+          {% elsif entry.type == "skills" %}
+            {% include cv/skills.html %}
           {% else %}
             {{ entry.contents }}
           {% endif %}
