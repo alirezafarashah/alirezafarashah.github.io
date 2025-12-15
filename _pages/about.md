@@ -7,19 +7,20 @@ subtitle:
 profile:
   align: right
   image: prof_pic2.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>Computer Engineering Dpartment</p>
-    <p>Sharif University of Technology</p>
-    <p>Tehran, IRAN</p>
+    <p>PhD Student in Computer Science</p>
+    <p>McGill University and Mila, Quebec AI Institute</p>
+    <p>Montréal, Canada</p>
 
-news: false  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false
+latest_posts: false
+selected_papers: true
+social: true
 ---
 
-I am Alireza, currently in my final year of pursuing a Bachelor's degree in Computer Engineering at Sharif University of Technology.
+I am Alireza, a PhD student in Computer Science at **McGill University** and **Mila, Quebec AI Institute**.
 
-My research interests are mainly in **Computer Vision** and **Trustworthy AI**.
-My academic journey, particularly my Bachelor’s degree in Computer Engineering from Sharif University of Technology, has provided me with a strong foundation in computer science and a passion for AI’s transformative potential. However, it is the challenges and questions surrounding the robustness, reliability, fairness, and security of these AI systems that intrigue me the most.
+My research lies at the intersection of **machine unlearning** and **concept erasure**, with a particular focus on large-scale **vision-language and text-to-image models**. I study how undesired concepts, such as sensitive, biased, or copyrighted information, can be selectively removed from trained models while preserving their overall utility.
+
+My academic background includes a Bachelor’s degree in Computer Engineering from **Sharif University of Technology**, where I developed a strong foundation in machine learning and computer vision. Building on this background, my current work investigates robustness, reliability, fairness, and safety in modern generative models, with the goal of developing principled methods for controllable and responsible AI systems.
