@@ -2,6 +2,7 @@ github_users:
   - alirezafarashah
 
 github_repos:
+  - huggingface/diffusers
   - alirezafarashah/LowRankAttack
   - alirezafarashah/Intelligent-Analysis-of-Biomedical-Images
   - mahdisalmani/blacksmith
