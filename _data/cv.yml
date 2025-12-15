@@ -6,24 +6,25 @@
     - name: Date of Birth
       value: 6th January 2001
     - name: Languages
-      value: English, Persian
+      value: English, Persian, French
 
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor
-      institution: Sharif University of Technology , Tehran, Iran
-      year: 2019
+    - title: PhD in Computer Science
+      institution: McGill University, Montréal, Quebec, Canada
+      year: Aug 2024 - Present
+      description:
+        - GPA: 4.0/4.0
+        - Department of Computer Science
+        - Research focus on trustworthy and responsible machine learning
+    - title: Bachelor of Science
+      institution: Sharif University of Technology, Tehran, Iran
+      year: Sep 2019 - Dec 2023
       description:
         - Computer Engineering
-        - GPA, 19.48/20 (Top 10%)
-        - last two years average grade, 19.66/20
-    - title: High School
-      institution: Allameh Helli, National Organization for Development of Exceptional Talents, Tehran, Iran
-      year: 2016
-      description:
-        - Mathematics and Physics
-        - General Grade Average (GPA), 4/4
+        - GPA: 19.45/20 (Top 10%)
+        - Last two years average grade: 19.66/20
 
 - title: Skills
   type: skills
@@ -31,32 +32,33 @@
     - title: Programming Languages
       items:
         - name: Python
+        - name: C
         - name: C++
         - name: Java
 
     - title: Frameworks & Libraries
       items:
-        - name: Pytorch
+        - name: PyTorch
         - name: TensorFlow
         - name: Keras
         - name: Scikit-learn
-        - name: Numpy
+        - name: NumPy
         - name: Pandas
-        - name: Openmim
-        - name: MMDetection
-        - name: MMPose
-      
+        - name: OpenMIM
+        - name: MLflow
+
     - title: Tools
       items:
         - name: Git
         - name: PostgreSQL
         - name: MySQL
-    
+        - name: SQLite
+
     - title: Operating Systems
       items:
         - name: Linux
         - name: Windows
-    
+
     - title: CAD & Simulation Tools
       items:
         - name: Proteus
@@ -66,28 +68,73 @@
         - name: Wireshark
         - name: Arduino
 
-        
+    - title: Soft Skills
+      items:
+        - name: Communication
+        - name: Teamwork
+        - name: Problem-solving
+        - name: Flexibility
+
+- title: Publications
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - "Localized-attention-guided concept erasure for text-to-image diffusion models, NeurIPS 2025 Workshop (Equal contribution)"
+        - "Unlearning Geo-Cultural Stereotypes in Multilingual LLMs, ICLR 2025 Workshop"
+    - year: 2023
+      items:
+        - "Blacksmith: Fast Adversarial Training of Vision Transformers via a Mixture of Single-step and Multi-step Methods, arXiv:2310.18975"
+
 - title: Research Experience
   type: time_table
   contents:
-    - title: Summer Internship CUHK
+    - title: Summer Intern
       institution: Chinese University of Hong Kong (CUHK)
       year: Jul 2023 - Sep 2023
       description:
-        - Supervised by <a href="https://www.cse.cuhk.edu.hk/people/faculty/farzan-farnia/"> Prof. Farzan Farnia </a> <br>
-        - My research experience under the supervision of Prof. Farnia at the Chinese University of Hong Kong proved to be highly beneficial, deepening my understanding of adversarial attacks and perturbations. Prof. Farnia’s guidance exposed me to cutting-edge research and techniques, expanding my knowledge and providing me valuable insights. Through this project, I gained practical skills in developing low-rank adversarial attacks. This research project enhanced my theoretical knowledge, equipped me with practical skills. In this project we designed a new attack by projecting perturbations into low dimentional space. This project leads to advances in transferability of adversarial perturbations.    
-    - title: Research Assistant at Robust and Interpretable Machine Learning Lab
-      institution: Sharif University of Technology
-      year: Oct 2022 - Present
+        - Supervised by Prof. Farzan Farnia
+        - Research on low-rank adversarial attacks and Schatten-1 norm attacks
+    - title: Undergraduate Research Assistant
+      institution: Robust and Interpretable Machine Learning Lab (RIMLab), Sharif University of Technology
+      year: Oct 2022 - Jan 2024
       description:
-        - Supervised by <a href="http://sharif.ir/~rohban/"> Prof. Mohammad Hossein Rohban </a>
-        - In this project, we worked on Fast Adversarial Training which suffers from Catastrophic Overfitting. CO occurs when the adversarially trained network suddenly loses robustness against multi-step attacks like Projected Gradient Descent (PGD). Although several approaches have been proposed to address this problem in Convolutional Neural Networks (CNNs), we found out that they do not perform well when applied to Vision Transformers (ViTs). In our paper we proposed a novel method of fast training which overcomes Catastrophic Overfitting in ViTs.
-    - title: Research Assistant at Data Analytics Lab
-      institution: Sharif University of Technology
+        - Supervised by Prof. Mohammad Hossein Rohban
+        - Research on adversarial robustness and fast adversarial training for Vision Transformers
+    - title: Undergraduate Research Assistant
+      institution: Data Analytics Lab, Sharif University of Technology
       year: Oct 2020 - Nov 2021
       description:
-        - Supervised by <a href="https://sharif.edu/~motahari/index.html"> Prof. Seyed Abolfazl Motahari </a>
-        - During my research experience under the supervision of Prof. Motahari, I became familiar with various topics and techniques in the field of natural language processing and speech recognition like Language model pre-training (LLMs), Knowledge distillation, Contrastive representation learning, Self-supervised learning. In our project, we implemented a speech-to-text model based on Wav2Vec 2.0, which is a framework for self-supervised learning of speech representations. Wav2Vec 2.0 consists of two stages a pre-training stage and a fine-tuning stage. In the pre-training stage, the model learns to encode the raw waveform of speech into latent representations using a contrastive loss. In the fine-tuning stage, the model learns to map the latent representations to the corresponding text using a connectionist temporal classification (CTC) loss.
+        - Supervised by Prof. Seyed Abolfazl Motahari
+        - Research on NLP and speech recognition, including Wav2Vec 2.0
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Medical Image Analyst
+      institution: Zista Gene Afarin
+      year: Jul 2022 - Aug 2022
+      description:
+        - White blood cell classification
+        - Large-scale tissue histopathology image analysis
+    - title: NLP Researcher
+      institution: Iran’s National Elites Foundation
+      year: Nov 2021 - Jul 2022
+      description:
+        - Trigger word detection, voice assistants, speaker recognition
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - year: Fall 2025
+      items:
+        - "IFT 6135 Representation Learning, Teaching Assistant"
+    - year: 2020 - 2023
+      items:
+        - "Artificial Intelligence (TA)"
+        - "Machine Learning (TA)"
+        - "Compiler Design (TA)"
+        - "Engineering Probability and Statistics (TA)"
 
 - title: Honors and Awards
   type: time_table
@@ -95,34 +142,28 @@
     - year: 2019
       items:
         - 33rd in the Nationwide University Entrance Exam among over 160,000
+    - year: 2024 - 2025
+      items:
+        - Graduate Excellence Award (McGill)
+        - Kharusi Family International Science Fellowship (McGill)
+        - FRQNT Fellowship
 
-- title: Reseach Interests
+- title: Research Interests
   type: list
   contents:
-        - Robustness
-        - Adversarial Attacks
-        - Interpretability
-        - Differential Privacy
-        - Fairness
-        - Domain Adaptation/Generalization
-        - Biomedical Image Analysis
-        - Object Detection
-        - Pose Estimation
-        - Pose Tracking
-
-
+    - Text-to-Image Models
+    - Vision-Language Models
+    - Machine Unlearning
+    - Robustness
+    - Responsible AI
+    - Trustworthy Machine Learning
 
 - title: Languages
   type: map
   contents:
     - name: English
-      value: Proficient - TOEFL iBT 105 (R26, L30, S24, W25)
+      value: Fluent – TOEFL iBT 105 (R26, L30, S24, W25)
+    - name: French
+      value: Elementary
     - name: Persian
       value: Native
-
-
-    
-
-
-
-
